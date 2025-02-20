@@ -18,6 +18,9 @@ namespace VariousTypes
             float quantityOfApples = 3.3f;
             float aPartOfSomething = 0.4f;
             Console.WriteLine($"{slice}\n{quantityOfApples}\n{aPartOfSomething}");
+            bool verdade = true;
+            bool falso = false;
+            Console.WriteLine($"{verdade}\n{falso}");
         }
     }
 }

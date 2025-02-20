@@ -14,7 +14,7 @@ namespace AskForInput
             string pedirDecimal = Console.ReadLine();
             float aPartOfSomething = float.Parse(pedirDecimal);
             Console.WriteLine(aPartOfSomething);
-
+            Console.WriteLine($"A soma dos dois números é {number+aPartOfSomething}");
         }
     }
 }

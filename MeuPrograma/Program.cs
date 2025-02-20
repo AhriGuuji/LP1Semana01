@@ -1,17 +1,12 @@
-﻿namespace MyProject;
+﻿using System;
 
-/// <summary>
-/// Is this a tag?
-/// </summary>
-class Program
+namespace MeuPrograma
 {
-    /// <summary>
-    /// I dont get it
-    /// </summary>
-    /// <param name="args"></param>
-    static void Main(string[] args)
+    public class Program
     {
-        Console.WriteLine("Hello, World!");
-        Console.WriteLine("Bye world");
+        private static void Main(string[] args)
+        {
+            Console.WriteLine("Hello LP1!");
+        }
     }
 }

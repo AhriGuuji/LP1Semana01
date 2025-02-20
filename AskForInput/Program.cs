@@ -7,7 +7,8 @@ namespace AskForInput
         private static void Main(string[] args)
         {
             string pedirNumero = Console.ReadLine();
-            Console.WriteLine(pedirNumero);
+            int number = int.Parse(pedirNumero);
+            Console.WriteLine(number);
         }
     }
 }

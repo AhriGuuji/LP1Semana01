@@ -14,7 +14,10 @@ namespace VariousTypes
             char pencil = '✎';
             char mail = '✉';
             Console.WriteLine($"{music}\n{pencil}\n{mail}");
-
+            float slice = 0.2f;
+            float quantityOfApples = 3.3f;
+            float aPartOfSomething = 0.4f;
+            Console.WriteLine($"{slice}\n{quantityOfApples}\n{aPartOfSomething}");
         }
     }
 }
